@@ -12,18 +12,17 @@ const About = () => (
                 <div className='text-lg text-primary-text/80'>
                     <p className=''>
                         Hi there, I'm Quentin, a passionate full-stack web
-                        developer who loves to build elegant and efficient web
-                        applications. I specialize in developing end-to-end
-                        solutions using a variety of technologies.
+                        developer with a love for building elegant and efficient
+                        websites and applications. I specialize in developing
+                        full-stack solutions using a variety of technologies.
                     </p>
 
                     <p className='mt-6'>
-                        With 6 years of experience in web development, I've
-                        honed my skills in creating responsive, intuitive, and
-                        user-friendly interfaces that enhance the user
-                        experience. My goal is to leverage my knowledge and
-                        expertise to create innovative web solutions that solve
-                        complex business problems.
+                        I'm a self-starter who's always eager to learn and grow
+                        as a developer. I'm constantly challenging myself to
+                        improve my skills and expand my knowledge, whether
+                        through personal projects, online courses, or
+                        collaborating with others in the developer community.
                     </p>
 
                     <p className='mt-6'>
