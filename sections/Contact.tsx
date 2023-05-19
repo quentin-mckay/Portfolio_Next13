@@ -19,13 +19,13 @@ const Contact = (props: Props) => {
     }
 
     return (
-        <section id='contact' className='q-contain-md mt-24 scroll-mt-24'>
+        <section id='contact' className='q-contain-md mt-32 scroll-mt-24'>
             <SectionHeading title='Say Hello' />
 
             <form
                 action='https://formsubmit.co/quentinmckay1@gmail.com'
                 method='POST'
-                className='grid gap-4 mt-8 w-[95%] mx-auto text-gray-100/80 md:grid-cols-2'
+                className='grid gap-4 mt-12 w-[95%] mx-auto text-gray-100/80 md:grid-cols-2'
                 // onSubmit={handleSubmit(onSubmit)}
             >
                 <input

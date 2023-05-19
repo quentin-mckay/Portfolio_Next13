@@ -1,6 +1,6 @@
 'use client'
 
-import { BackgroundCircles } from '@/components'
+import BackgroundCircles from '@/components/dev/BackgroundCircles'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 
 type Props = {}

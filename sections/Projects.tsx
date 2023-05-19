@@ -3,7 +3,7 @@
 import { SectionHeading } from '@/components'
 import ProjectCard from '@/components/ProjectCard'
 
-import { projects } from '../constants'
+import { projects } from '../constants/projects'
 import { useState } from 'react'
 
 type Props = {}
@@ -23,7 +23,7 @@ const Projects = (props: Props) => {
         <section id='projects' className='q-contain mt-24 scroll-mt-24'>
             <SectionHeading title='Projects' />
 
-            <div className='mt-16 grid gap-12'>
+            <div className='mt-16 grid gap-24'>
                 {projectsToShow.map((project, index) => (
                     <ProjectCard {...project} key={index} />
                 ))}

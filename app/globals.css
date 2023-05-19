@@ -57,7 +57,7 @@ h6 {
 
 
 body::-webkit-scrollbar {
-    @apply w-3
+    @apply w-[10px]
 }
 
 body::-webkit-scrollbar-track {

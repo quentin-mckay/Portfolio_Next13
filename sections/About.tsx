@@ -6,9 +6,9 @@ import { SectionHeading } from '@/components'
 
 const About = () => (
     <section id='about' className='q-contain scroll-mt-24'>
-        <div className='max-w-3xl mx-auto'>
+        <div className='mx-auto'>
             <SectionHeading title='About Me' />
-            <div className='grid md:grid-cols-[1fr_auto] gap-4 mt-8'>
+            <div className='max-w-3xl mx-auto grid md:grid-cols-[1fr_auto] gap-4 mt-16'>
                 <div className='text-lg text-primary-text/80'>
                     <p className=''>
                         Hi there, I'm Quentin, a passionate full-stack web

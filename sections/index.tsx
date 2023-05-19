@@ -1,4 +1,4 @@
-import HeroPapa from "./HeroPapa";
+import HeroPapa from "./dev/HeroPapa";
 import HeroQ from "./HeroQ";
 import About from "./About";
 import SkillsTagCloud from "./SkillsTagCloud";

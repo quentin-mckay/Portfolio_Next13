@@ -28,7 +28,7 @@ const SkillsPills = (props: Props) => {
         <section className='q-contain mt-24'>
             <SectionHeading title='Skills / Tools' />
 
-            <div className='mt-8 flex flex-wrap gap-2'>
+            <div className='max-w-3xl mx-auto mt-16 flex flex-wrap gap-4'>
                 {skills.map((skill, index) => (
                     <div
                         key={index}
@@ -40,7 +40,7 @@ const SkillsPills = (props: Props) => {
                                 width={30}
                                 height={30}
                                 alt='logo'
-                                className='object-cover w-7 h-7'
+                                className='object-contain w-7 h-7'
                             />
                         )}
                         <span className='px-3 text-primary-text'>

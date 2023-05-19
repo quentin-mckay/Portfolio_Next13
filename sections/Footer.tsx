@@ -1,10 +1,11 @@
 import { FaGithub, FaCodepen, FaYoutube, FaLinkedin } from 'react-icons/fa'
+import { FiGithub } from 'react-icons/fi'
 
 type Props = {}
 
 const Footer = (props: Props) => {
     return (
-		// bg-emerald-400/10
+        // bg-emerald-400/10
         <section className='p-4 mt-16 font-mono text-center '>
             <div className='flex justify-center gap-6 sm:hidden'>
                 <a
@@ -29,7 +30,13 @@ const Footer = (props: Props) => {
                     <FaYoutube className='' size={25} />
                 </a>
             </div>
-            <a className='inline-block mt-6 text-sm transition hover:text-accent sm:m-0' href='https://github.com/quentin-mckay/portfolio_next13'>Built with Next 13 && Tailwind</a>
+            <a
+                className='flex items-center justify-center gap-2 mt-6 text-white/70 transition hover:text-accent sm:m-0'
+                href='https://github.com/quentin-mckay/portfolio_next13'
+            >
+                <FiGithub size={16} />
+                Built with Next 13 && Tailwind
+            </a>
         </section>
     )
 }

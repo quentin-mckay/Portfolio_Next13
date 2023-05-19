@@ -1,5 +1,14 @@
 export const projects = [
 	{
+		name: 'AI Quiz Generator',
+		description: 'GPT-powered multiple choice quiz generator.',
+		demoURL: 'https://ai-quiz-generator-next.vercel.app/',
+		githubURL: 'https://github.com/quentin-mckay/ProjectShare',
+		image: '/images/projects/ai-quiz.jpg',
+		tags: ['Next.js', 'React', 'OpenAI', 'Tailwind'],
+		flipped: true
+	},
+	{
 		name: 'ProjectShare',
 		description: 'Full-stack GitHub project sharing app for developers with AI integration.',
 		demoURL: 'https://projectshare-frontend-react.onrender.com/',
@@ -14,7 +23,7 @@ export const projects = [
 		demoURL: 'https://openai-image-generator-react-frontend.onrender.com/',
 		githubURL: 'https://github.com/quentin-mckay/OpenAI-Image-Generator-React-Flask',
 		image: '/images/projects/dalle3.png',
-		tags: ['React', 'Flask', 'Tailwind'],
+		tags: ['React', 'Flask', 'Tailwind', 'OpenAI'],
 		flipped: false
 	},
 	{
@@ -26,6 +35,16 @@ export const projects = [
 		image: '/images/projects/pendulum-wave.jpg',
 		tags: ['p5.js', 'Tone.js', 'dat.gui', 'WebMIDI'],
 		flipped: true
+	},
+	{
+		name: 'Python Course Design and Delivery',
+		description: 'Created and delivered a 10-week high school course covering physical computing with Micro:bit/MicroPython and generative art using Processing.py.',
+		descriptionLong: 'Working for Coder Academy, I created and delivered a 10-week exploration of Python at Kambala Girls High School covering terminal programs, physical computing with Micro:bit and MicroPython, and generative art using Processing.py.',
+		demoURL: 'https://quentin-mckay.netlify.app/pages/projects/kambala-python.html',
+		githubURL: 'https://github.com/quentin-mckay/microbit-processing-library',
+		image: '/images/projects/python-logo.jpg',
+		tags: ['Python', 'MicroPython', 'Micro:bit', 'MakeCode', 'Processing.py', 'p5.js'],
+		flipped: false
 	},
 	{
 		name: 'Syntax Highlighter Chrome Extension',
@@ -45,16 +64,7 @@ export const projects = [
 		tags: ['PyScript', 'Python'],
 		flipped: true
 	},
-	{
-		name: 'Python Course Design and Delivery',
-		description: 'Created and delivered a 10-week high school course covering physical computing with Micro:bit/MicroPython and generative art using Processing.py.',
-		descriptionLong: 'Working for Coder Academy, I created and delivered a 10-week exploration of Python at Kambala Girls High School covering terminal programs, physical computing with Micro:bit and MicroPython, and generative art using Processing.py.',
-		demoURL: 'https://quentin-mckay.netlify.app/pages/projects/kambala-python.html',
-		githubURL: 'https://github.com/quentin-mckay/microbit-processing-library',
-		image: '/images/projects/python-logo.jpg',
-		tags: ['Python', 'MicroPython', 'Micro:bit', 'MakeCode', 'Processing.py', 'p5.js'],
-		flipped: false
-	},
+	
 	{
 		name: 'Audio-Reactive Album Art',
 		description: 'TouchDesigner remake of audio-reactive album art by synthwave artist Com Truise.',
