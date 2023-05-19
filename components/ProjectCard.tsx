@@ -23,7 +23,7 @@ const ProjectCard = (props: Props) => {
 
     return (
         <motion.div
-            className=' border border-gray-100/0 rounded-lg grid md:grid-cols-2 gap-4'
+            className=' border border-gray-100/0 rounded-lg grid md:grid-cols-2 gap-2'
             variants={projectCard}
             initial='hidden'
             whileInView='show'
