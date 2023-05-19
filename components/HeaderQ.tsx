@@ -21,7 +21,7 @@ import { myVariants, navContainer, navItem } from '@/utils/motion'
 const SocialLinks = () => (
     <div className='flex justify-center gap-6 sm:hidden'>
         <a
-            href='https://www.linkedin.com/in/quentin-mckay-76b693116/'
+            href='https://www.linkedin.com/in/quentinmckaydev/'
             target='_blank'
             className='text-primary-text transition cursor:pointer hover:text-accent hover:scale-125'
         >

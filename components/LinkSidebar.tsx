@@ -17,7 +17,7 @@ const LinkSidebar = (props: Props) => {
             className='fixed bottom-0 flex-col items-center hidden gap-6 left-10 sm:flex'
         >
             <a
-                href='https://www.linkedin.com/in/quentin-mckay-76b693116/'
+                href='https://www.linkedin.com/in/quentinmckaydev/'
                 target='_blank'
                 className='transition text-primary-text cursor:pointer hover:text-accent hover:scale-125'
             >
