@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 
-import { BackgroundCircles } from '@/components'
+// import { BackgroundCircles } from '@/components'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 
 import { motion } from 'framer-motion'
