@@ -32,9 +32,9 @@ const About = () => (
                         amazing together!
                     </p>
 
-                    <button className='px-4 py-2 mt-6 transition-colors border rounded text-accent border-accent hover:bg-accent/10'>
+                    {/* <button className='px-4 py-2 mt-6 transition-colors border rounded text-accent border-accent hover:bg-accent/10'>
                         View Resume
-                    </button>
+                    </button> */}
                 </div>
 
                 {/* <div className="relative order-first md:order-last group"> */}
