@@ -10,7 +10,7 @@ const About = () => (
             <SectionHeading title='About Me' />
             <div className='max-w-3xl mx-auto grid md:grid-cols-[1fr_auto] gap-4 mt-16'>
                 <div className='text-lg text-primary-text/80'>
-                    <p className=''>
+                    <p className='mt-8 sm:mt-0'>
                         Hi there, I'm Quentin, a passionate full-stack web
                         developer with a love for building elegant and efficient
                         websites and applications. I specialize in developing
