@@ -3,7 +3,7 @@ export const projects = [
 		name: 'AI Quiz Generator',
 		description: 'GPT-powered multiple choice quiz generator.',
 		demoURL: 'https://ai-quiz-generator-next.vercel.app/',
-		githubURL: 'https://github.com/quentin-mckay/ProjectShare',
+		githubURL: 'https://github.com/quentin-mckay/AI-Quiz-Generator',
 		image: '/images/projects/ai-quiz.jpg',
 		tags: ['Next.js', 'React', 'OpenAI', 'Tailwind'],
 		flipped: true
