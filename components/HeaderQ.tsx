@@ -75,7 +75,7 @@ export default function HeaderQ({}: Props) {
             initial='hidden'
             animate='show'
         >
-            <div className='items-center justify-between px-2 py-1 md:flex'>
+            <nav className='items-center justify-between px-2 py-1 md:flex'>
                 <div className='flex items-center justify-between'>
                     {/* LOGO */}
                     <a href='#home' className='text-3xl font-light text-accent'>
@@ -146,7 +146,7 @@ export default function HeaderQ({}: Props) {
                     </div>
                 </motion.div>
 
-            </div>
+            </nav>
         </motion.header>
     )
 }

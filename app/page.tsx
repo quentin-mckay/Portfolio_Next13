@@ -6,7 +6,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 import { HeaderQ, LinkSidebar, EmailSidebar } from '@/components'
-import { HeroQ, About, SkillsTagCloud, SkillsPills, Projects, Contact, Footer } from '@/sections'
+import { HeroQ, About, SkillsPills, Projects, Contact, Footer } from '@/sections'
 import { NextPage } from 'next'
 
 const Home: NextPage = () => (
@@ -17,8 +17,6 @@ const Home: NextPage = () => (
         <HeroQ />
 
         <About />
-
-        {/* <SkillsTagCloud /> */}
 
         <SkillsPills />
 
