@@ -31,7 +31,7 @@ const ProjectCard = (props: Props) => {
             viewport={{ once: true, amount: 0.5}} 
         >
             {/* IMAGE */}
-            <div className='grid place-items-center'>
+            <a className='grid place-items-center' href={demoURL} target='_blank'>
                 <img
                     src={image}
                     // width={200}
@@ -39,7 +39,7 @@ const ProjectCard = (props: Props) => {
                     alt='project image'
                     className='rounded-lg max-h-72'
                 />
-            </div>
+            </a>
 
             <div className='p-4 flex flex-col justify-between gap-2'>
                 {/* TITLE */}

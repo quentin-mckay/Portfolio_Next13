@@ -41,7 +41,7 @@ const Hero = (props: Props) => {
         >
             <motion.p
                 variants={heroItem}
-                className='font-mono text-lg text-accent'
+                className='font-mono text-lg text-accent/80'
             >
                 Hi, my name is
             </motion.p>
@@ -53,12 +53,12 @@ const Hero = (props: Props) => {
             </motion.h2>
             <motion.h3
                 variants={heroItem}
-                className='mt-2 text-4xl font-semibold text-secondary-text sm:text-4xl md:text-6xl'
+                className='mt-2 text-4xl font-semibold text-primary-text/50 sm:text-4xl md:text-6xl'
             >
                 I build things for the web.
             </motion.h3>
-            <motion.p variants={heroItem} className='mt-6 text-lg text-secondary-text'>
-                I'm a full-stack web developer and software engineer based in Sydney.
+            <motion.p variants={heroItem} className='mt-8 text-lg text-primary-text/60'>
+                I'm a <span className='text-accent/80'>full-stack web developer</span> and <span className='text-accent/80'>software engineer</span> based in Sydney.
             </motion.p>
         </motion.section>
     )

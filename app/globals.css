@@ -66,7 +66,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
     /* @apply bg-secondary-text/80 rounded */
-    @apply bg-accent/30 rounded
+    @apply bg-accent/50 rounded
 }
 
 

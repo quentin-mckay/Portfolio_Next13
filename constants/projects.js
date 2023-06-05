@@ -1,7 +1,7 @@
 export const projects = [
 	{
 		name: 'AI Quiz Generator',
-		description: 'GPT-powered multiple choice quiz generator.',
+		description: 'AI-powered multiple choice quiz generator using GPT-3.5-turbo.',
 		demoURL: 'https://ai-quiz-generator-next.vercel.app/',
 		githubURL: 'https://github.com/quentin-mckay/AI-Quiz-Generator',
 		image: '/images/projects/ai-quiz.jpg',

@@ -21,7 +21,8 @@ module.exports = {
                     DEFAULT: '#1d1d1d', // 1st portfolio bg color
                 },
                 'primary-text': {
-                    DEFAULT: '#ccd6f6', // whitish
+                    // DEFAULT: '#ccd6f6', // whitish (old kind of hard to read)
+                    DEFAULT: '#E9EBEC', // whitish (from canva resume)
                 },
                 'secondary-text': {
                     DEFAULT: '#8892b0', // grayish

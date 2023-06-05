@@ -41,6 +41,7 @@ const SocialLinks = () => (
         >
             <FaYoutube className='' size={25} />
         </a>
+        
     </div>
 )
 
@@ -98,51 +99,30 @@ export default function HeaderQ({}: Props) {
                 </div>
 
                 <motion.div
-                    className={`flex flex-col gap-4 mt-4  text-sm text-primary-text font-mono text-center items-stretch md:items-center ${
+                    className={`flex flex-col gap-2 mt-4 text-primary-text font-mono text-center ${
                         menuOpen ? '' : 'hidden'
                     } md:flex md:flex-row md:mt-0`}
                     variants={navContainer}
                     initial='hidden'
                     animate='show'
                 >
-                    <motion.span variants={navItem}>
-                        <a
-                            href='#about'
-                            onClick={() => setMenuOpen(false)}
-                            // as={`#${item.toLowerCase()}`}
-                            // scroll={false}
-                            className='inline-block w-full p-8 text-xl rounded bg-emerald-200/5  hover:text-accent hover:bg-emerald-200/10 md:text-base md:px-2 md:py-1 md:bg-emerald-200/0 transition-colors '
-                        >
-                            <span className='text-accent'>01.</span> About
-                        </a>
-                    </motion.span>
-                    <motion.span variants={navItem}>
-                        <a
-                            href='#projects'
-                            onClick={() => setMenuOpen(false)}
-                            // as={`#${item.toLowerCase()}`}
-                            // scroll={false}
-                            className='inline-block w-full p-8 text-xl rounded bg-emerald-200/5  hover:text-accent hover:bg-emerald-200/10 md:text-base md:px-2 md:py-1 md:bg-emerald-200/0 transition-colors '
-                        >
-                            <span className='text-accent'>02.</span> Projects
-                        </a>
-                    </motion.span>
-                    <motion.span variants={navItem}>
-                        <a
-                            href='#contact'
-                            onClick={() => setMenuOpen(false)}
-                            // as={`#${item.toLowerCase()}`}
-                            // scroll={false}
-                            className='inline-block w-full p-8 text-xl rounded bg-emerald-200/5  hover:text-accent hover:bg-emerald-200/10 md:text-base md:px-2 md:py-1 md:bg-emerald-200/0 transition-colors '
-                        >
-                            <span className='text-accent'>03.</span> Contact
-                        </a>
-                    </motion.span>
-
-
+                    {navItems.map((item, index) => (
+                        <motion.span variants={navItem} key={index}>
+                            <a
+                                href={`#${item.toLowerCase()}`}
+                                onClick={() => setMenuOpen(false)}
+                                // as={`#${item.toLowerCase()}`}
+                                // scroll={false}
+                                className='inline-block w-full p-8 text-xl rounded bg-emerald-200/5  hover:text-accent hover:bg-emerald-200/10 md:text-base md:px-2 md:py-1 md:bg-emerald-200/0 transition-colors '
+                            >
+                                <span className='text-accent'>
+                                    0{index + 1}.
+                                </span>{' '}
+                                {item}
+                            </a>
+                        </motion.span>
+                    ))}
                     
-
-
                     <div className='flex justify-center gap-12 p-8 rounded bg-emerald-200/5 hover:bg-emerald-200/10 md:hidden'>
                         <a
                             href='https://www.linkedin.com/in/quentin-mckay-76b693116/'
@@ -165,15 +145,10 @@ export default function HeaderQ({}: Props) {
                         >
                             <FaYoutube className='' size={28} />
                         </a>
+                        
                     </div>
-
-                    {/* RESUME */}
-                    <motion.span variants={navItem}>
-                        <a href='/Quentin_McKay_Resume.pdf' target='_blank' className='inline-block md:px-4 md:py-2 transition-colors cursor-pointer rounded text-accent border border-accent hover:bg-accent/10 md:w-auto w-full py-6 text-xl md:text-base'>
-                            Resume
-                        </a>
-                    </motion.span>
                 </motion.div>
+
             </nav>
         </motion.header>
     )
