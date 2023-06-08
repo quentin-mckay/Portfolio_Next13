@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
-import { HeaderQ, LinkSidebar, EmailSidebar } from '@/components'
+import { HeaderQ, LinkSidebar, EmailSidebar, ParticlesBackground } from '@/components'
 import { HeroQ, About, SkillsPills, Projects, Contact, Footer } from '@/sections'
 import { NextPage } from 'next'
 
@@ -28,6 +28,8 @@ const Home: NextPage = () => (
         <EmailSidebar />
 
         <Footer />
+
+        <ParticlesBackground />
     </div>
 )
 
