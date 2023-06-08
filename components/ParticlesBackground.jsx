@@ -26,6 +26,8 @@ let bgColor = 30
 let particleSizeInit = 7
 let lineDistance = 100
 
+let throttleSpeed = 3 // lower the number => more particles
+
 // variable used to throttle number of particles added from events
 let mouseMovedCount = 0
 let touchMovedCount = 0
@@ -145,7 +147,7 @@ const ParticlesBackground = () => {
         // 	particles.push(new Particle())
         // }
 		
-		if (mouseMovedCount % 5 === 0) { // throttle the amount of particles added
+		if (mouseMovedCount % throttleSpeed === 0) { // throttle the amount of particles added
 			particles.push(new Particle())
 		}
 
@@ -162,7 +164,7 @@ const ParticlesBackground = () => {
 
     const touchMoved = (c, event) => {
 
-        if (touchMovedCount % 5 === 0) { // throttle the amount of particles added
+        if (touchMovedCount % throttleSpeed === 0) { // throttle the amount of particles added
 			particles.push(new Particle())
 		}
 
