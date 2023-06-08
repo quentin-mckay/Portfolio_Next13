@@ -26,9 +26,11 @@ let bgColor = 30
 let particleSizeInit = 7
 let lineDistance = 100
 
+// variable used to throttle number of particles added from events
 let mouseMovedCount = 0
+let touchMovedCount = 0
 
-let hue = 0
+// let hue = 0
 
 
 class Particle {
@@ -124,7 +126,7 @@ const ParticlesBackground = () => {
 
         // let v = c.createVector(c.mouseX, c.mouseY)
 
-        hue = (hue + 1) % 360
+        // hue = (hue + 1) % 360
     }
 
     const mouseClicked = (c, event) => {
@@ -150,6 +152,24 @@ const ParticlesBackground = () => {
 		mouseMovedCount++
     }
 
+    
+    const touchStarted = (c, event) => {
+        // add multiple particles
+        // for (let i = 0; i < 5; i++) {
+        // 	particles.push(new Particle())
+        // }
+    }
+
+    const touchMoved = (c, event) => {
+
+        if (touchMovedCount % 5 === 0) { // throttle the amount of particles added
+			particles.push(new Particle())
+		}
+
+		touchMovedCount++
+    }
+
+
 	function windowResized(c) {
         c.resizeCanvas(c.windowWidth, c.windowHeight)
     }
@@ -161,6 +181,8 @@ const ParticlesBackground = () => {
             windowResized={windowResized}
             mouseClicked={mouseClicked}
             mouseMoved={mouseMoved}
+            touchStarted={touchStarted}
+            touchMoved={touchMoved}
         />
     )
 }
