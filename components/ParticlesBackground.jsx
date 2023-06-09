@@ -24,7 +24,7 @@ const particles = []
 let bgColor = 30
 
 let particleSizeInit = 7
-let lineDistance = 100
+let lineDistance = 150
 
 let throttleSpeed = 4 // lower the number => more particles
 
