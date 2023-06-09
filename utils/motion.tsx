@@ -63,10 +63,58 @@ export const heroItem = {
 }
 
 
+// ABOUT ME
+
+export const aboutMe = {
+    // hidden: { opacity: 0, y: 20 },
+    hidden: { opacity: 0, y: 0 },
+    show: { 
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: 0.2,
+            duration: 0.5
+        }
+    }
+}
+
+
+// SKILLS 
+
+export const skillContainer = {
+    hidden: { opacity: 0 },
+    show: {
+        opacity: 1,
+        transition: {
+            // delayChildren: 0.6,
+            duration: 0.5,
+            staggerChildren: 0.1,
+        },
+    },
+}
+
+export const skillItem = {
+    // hidden: { opacity: 0, y: -20 },
+    hidden: { opacity: 0, y: 0 },
+    show: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 0.5,
+        },
+    },
+}
+
+
+
+
+
+
 // PROJECT CARD
 
 export const projectCard = {
-    hidden: { opacity: 0, y: 20 },
+    // hidden: { opacity: 0, y: 20 },
+    hidden: { opacity: 0, y: 0 },
     show: { 
         opacity: 1,
         y: 0,

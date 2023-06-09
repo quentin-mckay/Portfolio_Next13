@@ -26,7 +26,7 @@ let bgColor = 30
 let particleSizeInit = 7
 let lineDistance = 100
 
-let throttleSpeed = 3 // lower the number => more particles
+let throttleSpeed = 4 // lower the number => more particles
 
 // variable used to throttle number of particles added from events
 let mouseMovedCount = 0

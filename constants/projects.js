@@ -56,6 +56,24 @@ export const projects = [
 		flipped: false
 	},
 	{
+		name: 'World Cup Country Quiz',
+		description: 'Terminal-based quiz game written in Python using data scraped in realtime from Wikipedia',
+		demoURL: 'https://replit.com/@QuentinMcKay/Country-Scraper-Game?v=1',
+		githubURL: 'https://github.com/quentin-mckay/countries-scraper-game',
+		image: '/images/projects/terminal-game.jpg',
+		tags: ['Python', 'BeautifulSoup'],
+		flipped: false
+	},
+	{
+		name: 'Pokemon Battler',
+		description: 'Terminal-based quiz game written in Python using data scraped in realtime from Wikipedia',
+		demoURL: 'https://pokemon-battler-hackathon.netlify.app/',
+		githubURL: 'https://github.com/Pokemon-Battler/pokemon-battler',
+		image: '/images/projects/pokemon-batter.jpg',
+		tags: ['React', 'Tailwind'],
+		flipped: false
+	},
+	{
 		name: 'PyScript Base Converter',
 		description: 'Auto-convert between binary, decimal, and hexidecimal bases using PyScript',
 		demoURL: 'https://base-converter-pyscript.onrender.com/',
