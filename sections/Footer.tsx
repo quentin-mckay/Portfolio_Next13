@@ -31,8 +31,9 @@ const Footer = (props: Props) => {
                 </a>
             </div>
             <a
-                className='flex items-center justify-center gap-2 mt-6 text-white/70 transition hover:text-accent sm:m-0'
+                className='flex items-center justify-center gap-2 text-xs mt-2 md:mt-6 md:text-base text-white/70 transition hover:text-accent sm:m-0'
                 href='https://github.com/quentin-mckay/portfolio_next13'
+                target='_blank'
             >
                 <FiGithub size={16} />
                 Built with Next 13 && Tailwind

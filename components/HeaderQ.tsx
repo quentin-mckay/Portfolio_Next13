@@ -169,7 +169,7 @@ export default function HeaderQ({}: Props) {
 
                     {/* RESUME */}
                     <motion.span variants={navItem}>
-                        <a href='/Quentin_McKay_Resume.pdf' target='_blank' className='inline-block md:px-4 md:py-2 transition-colors cursor-pointer rounded text-accent border border-accent hover:bg-accent/10 md:w-auto w-full py-6 text-xl md:text-base'>
+                        <a href='/Quentin_McKay_Resume_2_page.pdf' target='_blank' className='inline-block md:px-4 md:py-2 transition-colors cursor-pointer rounded text-accent border border-accent hover:bg-accent/10 md:w-auto w-full py-6 text-xl md:text-base'>
                             Resume
                         </a>
                     </motion.span>
