@@ -22,7 +22,7 @@ const About = () => (
                 <div className='text-lg text-primary-text/80'>
                     <p className='mt-8 sm:mt-0'>
                         A full-stack web developer with a passion for building
-                        elegant, efficient, and innovative web applications.
+                        innovative, efficient, and engaging web applications.
                     </p>
 
                     <p className='mt-6'>
