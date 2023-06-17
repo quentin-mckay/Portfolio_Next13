@@ -16,7 +16,7 @@ import {
 type Props = {}
 
 import { motion } from 'framer-motion'
-import { myVariants, navContainer, navItem } from '@/utils/motion'
+import { headerVariants, navContainer, navItem } from '@/utils/motion'
 
 const SocialLinks = () => (
     <div className='flex justify-center gap-6 sm:hidden'>
@@ -72,7 +72,7 @@ export default function HeaderQ({}: Props) {
         <motion.header
             // className='sticky top-0 z-20 p-4 md:px-6 border'
             className='fixed w-full top-0 z-20 p-4 md:px-6 backdrop-blur-xl'
-            variants={myVariants}
+            variants={headerVariants}
             initial='hidden'
             animate='show'
         >
