@@ -30,7 +30,9 @@ module.exports = {
                 // 'custom': colors.purple[200],
                 accent: {
                     DEFAULT: '#64ffda', // light green
+                    compliment: '#FF6489'
                 },
+                
             },
             boxShadow: {
                 '3xl': '0 10px 30px -15px rgba(0, 0, 0, 0.3)',

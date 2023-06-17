@@ -34,11 +34,37 @@ const About = () => (
                     </p>
 
                     <p className='mt-6'>
-                        When I'm not coding, you can find me playing with my 4
-                        cats, practicing piano/guitar, or reading about the
-                        latest web dev trends. Let's connect and build something
-                        amazing together!
+                        When I'm not coding, you'll find me having deep
+                        conversations with my{' '}
+                        <a
+                            href='https://www.youtube.com/watch?v=WG906HaSlh0&t=49s&ab_channel=QuentinMcKay'
+                            target='_blank'
+                            className=' border-b border-accent-compliment hover:text-accent-compliment'
+                        >
+                            4 cats
+                        </a>{' '}
+                        &#128571;, playing{' '}
+                        <a
+                            href='https://www.youtube.com/watch?v=P1uHrGL9-Gs&ab_channel=QuentinMcKay'
+                            target='_blank'
+                            className='mr-1 border-b border-accent-compliment hover:text-accent-compliment'
+                        >
+                            keys
+                        </a>
+                        &#127929; or{' '}
+                        <a
+                            href='https://www.youtube.com/watch?v=UQEdpba02IM&ab_channel=QuentinMcKay'
+                            target='_blank'
+                            className='mr-1 border-b border-accent-compliment hover:text-accent-compliment'
+                        >
+                            guitar
+                        </a>{' '}
+                        &#127928;, or reading about latest web dev trends
+                        &#128187;. 
                     </p>
+
+                    <p className="mt-6">Let's connect and build something amazing
+                        together!</p>
 
                     {/* <button className='px-4 py-2 mt-6 transition-colors border rounded text-accent border-accent hover:bg-accent/10'>
                         View Resume
@@ -46,7 +72,7 @@ const About = () => (
                 </div>
 
                 {/* <div className="relative order-first md:order-last group"> */}
-                <div className='relative order-first md:order-last group'>
+                <div className='elative flex items-center justify-center order-first md:order-last group mb-6 md:mb-0'>
                     <div className='overflow-hidden'>
                         <Image
                             src='/images/profile-blur.png'

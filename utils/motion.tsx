@@ -1,4 +1,4 @@
-export const myVariants = {
+export const headerVariants = {
     hidden: {
         opacity: 0,
         // x:-500
