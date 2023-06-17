@@ -49,10 +49,10 @@ const About = () => (
                             target='_blank'
                             className='mr-1 border-b border-accent-compliment/70 hover:text-accent-compliment'
                         >
-                            keys 
+                            piano 
                         </a>
                         &#127929; 
-                         or Disney tunes on {' '}
+                        and Disney songs on {' '}
                         <a
                             href='https://www.youtube.com/watch?v=UQEdpba02IM&ab_channel=QuentinMcKay'
                             target='_blank'
