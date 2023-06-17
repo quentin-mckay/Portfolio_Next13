@@ -29,7 +29,7 @@ const Projects = (props: Props) => {
                 ))}
             </div>
 
-            <div className='text-center mt-12'>
+            <div className='text-center mt-20'>
                 <button 
 				onClick={handleShowAllProjects}
 				className={`${showAllProjects ? 'hidden' : ''} text-accent border border-accent rounded px-6 py-3 hover:bg-accent/10 transition-colors`}>

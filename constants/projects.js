@@ -1,7 +1,7 @@
 export const projects = [
 	{
 		name: 'AI Quiz Generator',
-		description: 'AI-powered multiple choice quiz generator using GPT-3.5-turbo.',
+		description: 'AI-powered multiple choice quiz generator using the OpenAI chat completion API.',
 		demoURL: 'https://ai-quiz-generator-next.vercel.app/',
 		githubURL: 'https://github.com/quentin-mckay/AI-Quiz-Generator',
 		image: '/images/projects/ai-quiz.jpg',
@@ -10,7 +10,8 @@ export const projects = [
 	},
 	{
 		name: 'ProjectShare',
-		description: 'Full-stack GitHub project sharing app for developers with AI integration.',
+		// description: 'Full-stack GitHub project sharing app for developers with AI integration.',
+		description: 'AI-infused full-stack project sharing app enabling users to easily share and find GitHub repositories.',
 		demoURL: 'https://projectshare-frontend-react.onrender.com/',
 		githubURL: 'https://github.com/quentin-mckay/ProjectShare',
 		image: '/images/projects/projectshare.jpg',
@@ -19,7 +20,7 @@ export const projects = [
 	},
 	{
 		name: 'OpenAI Text-to-Image Generator',
-		description: 'Full-stack text-to-image generator using DALL-E using React and Flask.',
+		description: "Full-stack text-to-image generator using OpenAI's DALL-E model.",
 		demoURL: 'https://openai-image-generator-react-frontend.onrender.com/',
 		githubURL: 'https://github.com/quentin-mckay/OpenAI-Image-Generator-React-Flask',
 		image: '/images/projects/dalle3.png',
@@ -28,7 +29,7 @@ export const projects = [
 	},
 	{
 		name: 'Pendulum Wave Audio-Visualiser',
-		description: 'Pendulum wave audio-visualization using WebAudio with MIDI out.',
+		description: 'Pendulum wave audio-visualization with custom particle system, audio synthesis, user-definable scales, and MIDI out.',
 		demoURL: 'https://pendulum-wave.netlify.app/',
 		githubURL: 'https://github.com/quentin-mckay/Pendulum-Wave',
 		youtubeURL: 'https://www.youtube.com/watch?v=Ba-q3AdDbcw&t=2s&ab_channel=QuentinMcKay',
@@ -57,7 +58,7 @@ export const projects = [
 	},
 	{
 		name: 'World Cup Country Quiz',
-		description: 'Terminal-based quiz game written in Python using data scraped in realtime from Wikipedia',
+		description: 'Terminal-based quiz game written in Python using data scraped in real time from Wikipedia',
 		demoURL: 'https://replit.com/@QuentinMcKay/Country-Scraper-Game?v=1',
 		githubURL: 'https://github.com/quentin-mckay/countries-scraper-game',
 		image: '/images/projects/terminal-game.jpg',
@@ -66,7 +67,7 @@ export const projects = [
 	},
 	{
 		name: 'Pokemon Battler',
-		description: 'Terminal-based quiz game written in Python using data scraped in realtime from Wikipedia',
+		description: 'Pokemon battling game for 2 players built during a 1-week hackathon.',
 		demoURL: 'https://pokemon-battler-hackathon.netlify.app/',
 		githubURL: 'https://github.com/Pokemon-Battler/pokemon-battler',
 		image: '/images/projects/pokemon-batter.jpg',
