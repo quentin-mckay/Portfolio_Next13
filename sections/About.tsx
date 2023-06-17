@@ -39,23 +39,24 @@ const About = () => (
                         <a
                             href='https://www.youtube.com/watch?v=WG906HaSlh0&t=49s&ab_channel=QuentinMcKay'
                             target='_blank'
-                            className=' border-b border-accent-compliment hover:text-accent-compliment'
+                            className=' border-b border-accent-compliment/70 hover:text-accent-compliment'
                         >
                             4 cats
                         </a>{' '}
-                        &#128571;, playing{' '}
+                        &#128571;, playing Zelda themes on {' '}
                         <a
                             href='https://www.youtube.com/watch?v=P1uHrGL9-Gs&ab_channel=QuentinMcKay'
                             target='_blank'
-                            className='mr-1 border-b border-accent-compliment hover:text-accent-compliment'
+                            className='mr-1 border-b border-accent-compliment/70 hover:text-accent-compliment'
                         >
-                            keys
+                            keys 
                         </a>
-                        &#127929; or{' '}
+                        &#127929; 
+                         or Disney tunes on {' '}
                         <a
                             href='https://www.youtube.com/watch?v=UQEdpba02IM&ab_channel=QuentinMcKay'
                             target='_blank'
-                            className='mr-1 border-b border-accent-compliment hover:text-accent-compliment'
+                            className='mr-1 border-b border-accent-compliment/70 hover:text-accent-compliment'
                         >
                             guitar
                         </a>{' '}
