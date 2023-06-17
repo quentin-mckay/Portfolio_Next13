@@ -60,7 +60,7 @@ const About = () => (
                         >
                             guitar
                         </a>{' '}
-                        &#127928;, or reading about latest web dev trends
+                        &#127928;, or reading about the latest web dev trends
                         &#128187;. 
                     </p>
 
