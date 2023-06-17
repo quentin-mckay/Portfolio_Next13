@@ -26,6 +26,7 @@
     "react-scroll": "^1.8.9",
     "react-simple-typewriter": "^5.0.1",
     "react-tagcloud": "^2.3.1",
+    "react-use": "^17.4.0",
     "typescript": "5.0.2"
   },
   "devDependencies": {
