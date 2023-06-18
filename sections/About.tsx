@@ -39,15 +39,15 @@ const About = () => (
                         <a
                             href='https://www.youtube.com/watch?v=WG906HaSlh0&t=49s&ab_channel=QuentinMcKay'
                             target='_blank'
-                            className=' border-b border-accent-compliment/70 hover:text-accent-compliment'
+                            className='about_hobby'
                         >
                             4 cats
                         </a>{' '}
-                        &#128571;, playing Zelda themes on {' '}
+                        &#128571;, learning Zelda themes on {' '}
                         <a
                             href='https://www.youtube.com/watch?v=P1uHrGL9-Gs&ab_channel=QuentinMcKay'
                             target='_blank'
-                            className='mr-1 border-b border-accent-compliment/70 hover:text-accent-compliment'
+                            className='about_hobby'
                         >
                             piano 
                         </a>
@@ -56,12 +56,11 @@ const About = () => (
                         <a
                             href='https://www.youtube.com/watch?v=UQEdpba02IM&ab_channel=QuentinMcKay'
                             target='_blank'
-                            className='mr-1 border-b border-accent-compliment/70 hover:text-accent-compliment'
+                            className='about_hobby'
                         >
                             guitar
                         </a>{' '}
-                        &#127928;, or reading about the latest web dev trends
-                        &#128187;. 
+                        &#127928;, or enjoying long walks on the beach at sunset ( just kidding &#128521;). 
                     </p>
 
                     <p className="mt-6">Let's connect and build something amazing

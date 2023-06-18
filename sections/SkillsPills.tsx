@@ -41,7 +41,8 @@ const SkillsPills = (props: Props) => {
                 {skills.map((skill, index) => (
                     <motion.div
                         key={index}
-                        className='flex items-center bg-accent/10 rounded-lg p-2 grow max-w-[200px]'
+                        // className='flex items-center bg-accent/10 rounded-lg p-2 grow max-w-[200px]'
+                        className='flex items-center bg-[#243430] rounded-lg p-2 grow max-w-[200px]'
                         variants={skillItem}
                     >
                         {skill.logo && (

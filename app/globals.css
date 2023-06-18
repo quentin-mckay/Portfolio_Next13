@@ -47,7 +47,8 @@ h6 {
 }
 
 .q-input {
-    @apply px-4 py-3 rounded-sm border-l-2 bg-gray-200/20 border-l-accent/80 outline-none focus:placeholder-transparent;
+    /* @apply px-4 py-3 rounded-sm border-l-2 bg-gray-200/20 border-l-accent/80 outline-none focus:placeholder-transparent; */
+    @apply px-4 py-3 rounded-sm border-l-2 bg-[#464647] border-l-accent/80 outline-none focus:placeholder-transparent;
 }
 
 .q-writing-vertical {
@@ -78,4 +79,13 @@ body::-webkit-scrollbar-thumb {
 
 .p5Canvas {
 	@apply fixed top-0 -z-10
+}
+
+
+.about_hobby {
+    @apply mr-1 border-dotted border-b border-accent-compliment/70 hover:text-accent-compliment transition-colors
+}
+
+p {
+    @apply bg-primary-bg rounded
 }
