@@ -42,7 +42,7 @@ const About = () => (
                             className='about_hobby'
                         >
                             4 cats
-                        </a>{' '}
+                        </a>{' '} (currenty 9 actually. don't judge. we foster)
                         &#128571;, learning Zelda themes on {' '}
                         <a
                             href='https://www.youtube.com/watch?v=P1uHrGL9-Gs&ab_channel=QuentinMcKay'
