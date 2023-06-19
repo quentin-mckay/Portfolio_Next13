@@ -39,12 +39,12 @@ const Hero = (props: Props) => {
             initial='hidden'
             animate='show'
         >
-            <motion.p
+            <motion.div
                 variants={heroItem}
                 className='font-mono text-lg text-accent/80'
             >
                 Hi, my name is
-            </motion.p>
+            </motion.div>
             <motion.h2
                 variants={heroItem}
                 className='mt-3 text-5xl font-semibold text-primary-text sm:text-5xl md:text-7xl'
@@ -57,9 +57,9 @@ const Hero = (props: Props) => {
             >
                 I build things for the web.
             </motion.h3>
-            <motion.p variants={heroItem} className='mt-8 text-lg text-primary-text/60'>
+            <motion.div variants={heroItem} className='mt-8 text-lg text-primary-text/60'>
                 I'm a <span className='text-accent/80'>full-stack web developer</span> and <span className='text-accent/80'>software engineer</span> based in Sydney.
-            </motion.p>
+            </motion.div>
         </motion.section>
     )
 }

@@ -42,7 +42,7 @@ class Particle {
 
         // this.pos = q.createVector(q.mouseX, q.mouseY)
 
-        this.size = q.random(1, 16) // random value between 1 and 6
+        // this.size = q.random(1, 16) // random value between 1 and 6
         this.size = particleSizeInit
 
 		// let spread = 1
