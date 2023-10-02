@@ -10,7 +10,7 @@ export const projects = [
 	},
 	{
 		name: 'StrataSphere',
-		description: 'Building management app featuring a drag-n-drop task board, voting and budget systems, notice board with comments, theme switching, and full-stack user auth built with the MERN stack.',
+		description: 'Building management app featuring a drag-n-drop task board, voting and budget systems, notice board with image upload and comments, color theme switching, and full-stack user auth built with the MERN stack.',
 		demoURL: 'https://stratasphere.netlify.app/',
 		githubURL: 'https://ai-quiz-generator-next.vercel.app/',
 		image: '/images/projects/stratasphere.jpg',
