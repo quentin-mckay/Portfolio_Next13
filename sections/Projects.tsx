@@ -11,7 +11,8 @@ type Props = {}
 const Projects = (props: Props) => {
 
 	const [showAllProjects, setShowAllProjects] = useState(false) // to hide Show All button
-	const [projectsToShow, setProjectsToShow] = useState(projects.slice(0, 4)) // just show first 4 projects
+	// const [projectsToShow, setProjectsToShow] = useState(projects.slice(0, 4)) // just show first 4 projects
+	const [projectsToShow, setProjectsToShow] = useState(projects) // just show first 4 projects
 
 
 	const handleShowAllProjects = () => {
@@ -29,13 +30,13 @@ const Projects = (props: Props) => {
                 ))}
             </div>
 
-            <div className='text-center mt-20'>
+            {/* <div className='text-center mt-20'>
                 <button 
 				onClick={handleShowAllProjects}
 				className={`${showAllProjects ? 'hidden' : ''} text-accent border border-accent rounded px-6 py-3 hover:bg-accent/10 transition-colors`}>
                     Show More Projects
                 </button>
-            </div>
+            </div> */}
         </section>
     )
 }

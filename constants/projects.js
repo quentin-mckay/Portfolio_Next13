@@ -9,6 +9,15 @@ export const projects = [
 		flipped: true
 	},
 	{
+		name: 'StrataSphere',
+		description: 'Building management app featuring a drag-n-drop task board, voting and budget systems, notice board with comments, theme switching, and full-stack user auth built with the MERN stack.',
+		demoURL: 'https://stratasphere.netlify.app/',
+		githubURL: 'https://ai-quiz-generator-next.vercel.app/',
+		image: '/images/projects/stratasphere.jpg',
+		tags: ['React', 'Express', 'MongoDB'],
+		flipped: true
+	},
+	{
 		name: 'ProjectShare',
 		// description: 'Full-stack GitHub project sharing app for developers with AI integration.',
 		description: 'AI-infused full-stack project sharing app enabling users to easily share and find GitHub repositories.',
