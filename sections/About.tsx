@@ -60,7 +60,7 @@ const About = () => (
                         >
                             guitar
                         </a>{' '}
-                        &#127928;, or enjoying long walks on the beach at sunset ( just kidding &#128521;). 
+                        &#127928;, or enjoying long walks on the beach at sunset &#128521; 
                     </p>
 
                     <p className="mt-6">Let's connect and build something amazing
