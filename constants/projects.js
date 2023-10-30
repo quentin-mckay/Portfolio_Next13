@@ -12,7 +12,7 @@ export const projects = [
 		name: 'StrataSphere',
 		description: 'Building management app featuring a drag-n-drop task board, voting and budget systems, notice board with image upload and comments, color theme switching, and full-stack user auth built with the MERN stack.',
 		demoURL: 'https://stratasphere.netlify.app/',
-		githubURL: 'https://ai-quiz-generator-next.vercel.app/',
+		githubURL: 'https://github.com/Manage-My-Block/StrataSphere-Docs',
 		image: '/images/projects/stratasphere.jpg',
 		tags: ['React', 'Express', 'MongoDB'],
 		flipped: true
